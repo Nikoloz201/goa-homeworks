@@ -63,15 +63,36 @@ end_fill()
 
 color("brown")
 
-begin_fill()
 
+penup()
+goto(20,110)
+pendown()
+begin_fill()
+left(120)
 left(90)
 forward(25)
 right(90)
 forward(25)
 right(90)
 forward(25)
+right(90)
+forward(25)
 
+end_fill()
+
+penup()
+goto(160,110)
+pendown()
+begin_fill()
+
+right(90)
+forward(25)
+right(90)
+forward(25)
+right(90)
+forward(25)
+right(90)
+forward(25)
 
 end_fill()
 
